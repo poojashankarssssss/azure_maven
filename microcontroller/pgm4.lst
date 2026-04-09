@@ -1,0 +1,52 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             SUM,CODE,READONLY
+    2 00000000                 ENTRY
+    3 00000000 E3A0100A        MOV              R1,#10
+    4 00000004 E3A02000        MOV              R2,#0
+    5 00000008 E0822001 
+                       LOOP    ADD              R2,R2,R1
+    6 0000000C E2511000        SUBS             R1,# 0*01
+    7 00000010 1AFFFFFC        BNE              LOOP
+    8 00000014 EAFFFFFE 
+                       BACK    B                BACK
+    9 00000018                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\pgm4.d -o.\pgm4.o -IC:
+\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Philips --pred
+efine="__EVAL SETA 1" --list=.\pgm4.lst pgm4.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+BACK 00000014
+
+Symbol: BACK
+   Definitions
+      At line 8 in file pgm4.s
+   Uses
+      At line 8 in file pgm4.s
+Comment: BACK used once
+LOOP 00000008
+
+Symbol: LOOP
+   Definitions
+      At line 5 in file pgm4.s
+   Uses
+      At line 7 in file pgm4.s
+Comment: LOOP used once
+SUM 00000000
+
+Symbol: SUM
+   Definitions
+      At line 1 in file pgm4.s
+   Uses
+      None
+Comment: SUM unused
+3 symbols
+334 symbols in table
