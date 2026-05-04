@@ -1,0 +1,172 @@
+
+
+ ETABS Ultimate 64-bit 21.0.0 Build 3143 (Analysis Build 9932/64)
+ File: C:\Users\Lenovo24\Desktop\ETABS\P1\lok.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2026/04/23  04:38:32
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =          80
+    WITH RESTRAINTS                        =          80
+    WITH MASS                              =          80
+ NUMBER OF FRAME/TENDON ELEMENTS           =         160
+ NUMBER OF LOAD PATTERNS                   =           3
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =           4
+ NUMBER OF MASS SOURCES                    =           1
+
+ UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = N, mm, °C, sec
+ GRAVITATIONAL ACCELERATION                =    9806.650
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.683 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+  (Env. variable SAPFIRE_NUM_THREADS not set)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =          12
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =          12
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =          12
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =          12
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =          12
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =          12
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =          12
+
+
+ E L E M E N T   F O R M A T I O N                                      04:38:32
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        04:38:32
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =           0
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =           0
+
+
+ L I N E A R   S T A T I C   C A S E S                                  04:38:32
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =           3
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           3
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: DEAD
+ CASE: LIVE
+ CASE: ~LLRF
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                04:38:32
+
+ CASE: MODAL
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =           0
+ NUMBER OF MASS DEGREES OF FREEDOM         =           0
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          12
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =           1
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+ * * * W A R N I N G * * *
+ THE STRUCTURE HAS NO (UNRESTRAINED) MASS; NO EIGEN MODES CAN BE FOUND
+
+
+ * * * W A R N I N G * * *
+ NO EIGEN MODES WERE FOUND
+
+
+
+ A N A L Y S I S   C O M P L E T E                          2026/04/23  04:38:32
+
+
+ CSI.SAPModel (Analysis Build 9932/64)
+ File: C:\Users\Lenovo24\Desktop\ETABS\P1\lok.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2026/04/23  06:03:02
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =          80
+    WITH RESTRAINTS                        =          80
+    WITH MASS                              =          80
+ NUMBER OF FRAME/TENDON ELEMENTS           =         160
+ NUMBER OF LOAD PATTERNS                   =           3
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =           4
+ NUMBER OF MASS SOURCES                    =           1
+
+ UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = N, mm, °C, sec
+ GRAVITATIONAL ACCELERATION                =    9806.650
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.683 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+  (Env. variable SAPFIRE_NUM_THREADS not set)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =          12
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =          12
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =          12
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =          12
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =          12
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =          12
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =          12
+
+
+ E L E M E N T   F O R M A T I O N                                      06:03:02
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        06:03:02
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =           0
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =           0
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                06:03:02
+
+ CASE: MODAL
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =           0
+ NUMBER OF MASS DEGREES OF FREEDOM         =           0
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          12
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =           1
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+ * * * W A R N I N G * * *
+ THE STRUCTURE HAS NO (UNRESTRAINED) MASS; NO EIGEN MODES CAN BE FOUND
+
+
+ * * * W A R N I N G * * *
+ NO EIGEN MODES WERE FOUND
+
+
+
+ A N A L Y S I S   C O M P L E T E                          2026/04/23  06:03:02

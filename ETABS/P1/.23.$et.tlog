@@ -1,0 +1,9 @@
+﻿Object reference not set to an instance of an object.
+   at d2.ᜂ(Object A_0, KeyPressEventArgs A_1)
+   at System.Windows.Forms.Control.OnKeyPress(KeyPressEventArgs e)
+   at System.Windows.Forms.DataGridView.OnKeyPress(KeyPressEventArgs e)
+   at System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   at System.Windows.Forms.DataGridView.ProcessKeyEventArgs(Message& m)
+   at System.Windows.Forms.Control.WmKeyChar(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

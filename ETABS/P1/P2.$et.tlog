@@ -1,0 +1,7 @@
+﻿Object reference not set to an instance of an object.
+   at ᭞.ᝧ(String A_0)Object reference not set to an instance of an object.
+   at CSI.ETABS.mdiMainForm.DisposeAllMDIForms()
+   at CSI.ETABS.mdiMainForm.mdiMainForm_FormClosing(Object sender, FormClosingEventArgs e)
+   at System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

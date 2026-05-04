@@ -1,0 +1,7 @@
+ SAPFire results-database version:           77
+ Type    Result      File                  Records
+ Resp    Case        .Y05                        1                  1396
+ Resp    Displ       .Y00                        1                  1296
+ Resp    JFJoint     .Y01                        1                  1296
+ Resp    JFSpring    .Y02                        1                  1296
+ Resp    DisplTran   .Y04                        1                   864
